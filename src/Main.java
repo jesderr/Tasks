@@ -4,6 +4,7 @@ import easyTasks.AddStrings;
 import easyTasks.RemoveElement;
 import easyTasks.TwoSum;
 import mediumTasks.DivideTwoIntegers;
+import mediumTasks.FindIndexOfFirstOccurrenceString;
 import mediumTasks.LongestSubstringWithoutRepeatingCharacters;
 
 import java.io.BufferedReader;
@@ -15,9 +16,9 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+        FindIndexOfFirstOccurrenceString f = new FindIndexOfFirstOccurrenceString();
+        System.out.println(f.strStr("leetcodecode","code"));
 
-        DivideTwoIntegers d = new DivideTwoIntegers();
-        System.out.println(d.divide(-2147483648, -1));
     }
 }
 

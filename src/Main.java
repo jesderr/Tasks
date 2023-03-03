@@ -6,6 +6,7 @@ import easyTasks.TwoSum;
 import mediumTasks.DivideTwoIntegers;
 import mediumTasks.FindIndexOfFirstOccurrenceString;
 import mediumTasks.LongestSubstringWithoutRepeatingCharacters;
+import mediumTasks.ReverseInteger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,9 +17,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        FindIndexOfFirstOccurrenceString f = new FindIndexOfFirstOccurrenceString();
-        System.out.println(f.strStr("leetcodecode","code"));
-
+        ReverseInteger r = new ReverseInteger();
+        r.reverse(1534236469);
     }
 }
 

@@ -1,8 +1,5 @@
 
-import easyTasks.AddDigits;
-import easyTasks.AddStrings;
-import easyTasks.RemoveElement;
-import easyTasks.TwoSum;
+import easyTasks.*;
 import mediumTasks.DivideTwoIntegers;
 import mediumTasks.FindIndexOfFirstOccurrenceString;
 import mediumTasks.LongestSubstringWithoutRepeatingCharacters;
@@ -17,8 +14,6 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ReverseInteger r = new ReverseInteger();
-        r.reverse(1534236469);
     }
 }
 

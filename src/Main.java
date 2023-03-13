@@ -14,6 +14,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+        LengthOfLastWord l = new LengthOfLastWord();
+        l.lengthOfLastWord("a ");
     }
 }
 

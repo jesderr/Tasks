@@ -19,6 +19,15 @@ import java.util.stream.IntStream;
 //        Collections.reverse(answer);
 //        return answer;
 //    }
+
+
+/*
+
+        boolean nonGrowth = heights.stream().allMatch(x -> x <= (heights.get(heights.indexOf(x)+1)));
+
+        boolean nonDecreasing = heights.stream().allMatch(x -> x >= (heights.get(heights.indexOf(x)+1)));
+
+ */
 public class Solution {
 
 }
@@ -161,25 +170,7 @@ public class Solution {
 //    }
 
 
-//Merge Nodes in Between Zeros (task 10)
-//public ListNode mergeNodes(ListNode head) {
-//        ListNode cur = new ListNode(-1);
-//        ListNode root = cur;
-//        int sum = 0;
-//        while (head != null) {
-//            if (head.val == 0 && sum != 0) {
-//                cur.val = sum;
-//                if (head.next == null) {
-//                    break;
-//                }
-//                cur = cur.next;
-//                sum = 0;
-//            }
-//            sum += head.val;
-//            head = head.next;
-//        }
-//        return root;
-//    }
+
 
 //task 11 1678. Goal Parser Interpretation
 //public String interpret(String command) {

@@ -1,5 +1,6 @@
 package easyTasks;
 
+import java.math.BigInteger;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -8,14 +9,11 @@ public class PalindromeNumber {
         if(x < 0){
             return false;
         }
-        List<Integer> list = new LinkedList<>();
-        while(x != 0){
-            list.add(x%10);
-            x /= 10;
+        StringBuilder s =new StringBuilder(String.valueOf(x));
+        s.reverse();
+        if(Long.parseLong(String.valueOf(s)) > Integer.MAX_VALUE){
+            return false;
         }
-        //????
-
-
-        return false;
+        return Integer.parseInt(String.valueOf(s)) == x;
     }
 }

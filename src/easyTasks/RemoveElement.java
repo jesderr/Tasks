@@ -1,13 +1,17 @@
 package easyTasks;
 
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {
-        int answer = 0;
-        for (int num : nums) {
-            if (val != num) {
-                answer++;
+        int count=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]!=val){
+                nums[count]=nums[i];
+                count++;
             }
         }
-        return answer;
+        return count;
     }
 }

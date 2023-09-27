@@ -1,6 +1,6 @@
 package mediumTasks;
 
-public class FindIndexOfFirstOccurrenceString {
+public class FindIndFirstOccurrenceStr {
     public int strStr(String haystack, String needle) {
 
         if (!haystack.contains(String.valueOf(needle.charAt(0)))) {

@@ -1,8 +1,9 @@
 import easyTasks.*;
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Денис");
-        stringToBinary("денис");
+            HammingWeight h =new HammingWeight();
+            System.out.println(h.hammingWeight(000000000000000000101010101));
+
     }
 
     static public String stringToBinary(String s) {
